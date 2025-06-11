@@ -894,7 +894,7 @@ export const MessengerWidget = () => {
       w-80 lg:w-90 h-96 lg:h-[500px] 
       rounded-t-lg shadow-xl 
       flex flex-col border z-40
-      transition-all duration-1000 animate-slideUp ease-in-out
+      transition-all duration-1000 slideUp ease-in-out
       ${isClosing ? 'duration-1000 transform translate-y-[100vh]' : ''}
       ${darkMode ? "bg-gray-800 border-gray-700" : "bg-white border-gray-200"}`}
     >

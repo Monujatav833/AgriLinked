@@ -1,4 +1,4 @@
-import { useEffect, useState} from 'react';
+import { useState} from 'react';
 import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext.jsx';  
 import LoginPage from '../components/pages/loginPage.jsx';
@@ -28,33 +28,33 @@ const AppRouters = () => {
   const location = useLocation();
   const [isAuthLoaded, setIsAuthLoaded] = useState(false);
 
-  useEffect(() => {
-    const token = localStorage.getItem('authToken');
-    if (token) {
-      login(token);
-    }
-    setIsAuthLoaded(true);
-  }, [login]);
+  // useEffect(() => {
+  //   const token = localStorage.getItem('authToken');
+  //   if (token) {
+  //     login(token);
+  //   }
+  //   setIsAuthLoaded(true);
+  // }, [login]);
 
-  if (!isAuthLoaded) {
-    return <div className="flex justify-center my-auto items-center"> 
-        <Lottie animationData={waitLoading} loop={true} style={{ height: 500 }} />
-    </div>;
-  }
+  // if (!isAuthLoaded) {
+  //   return <div className="flex justify-center my-auto items-center"> 
+  //       <Lottie animationData={waitLoading} loop={true} style={{ height: 500 }} />
+  //   </div>;
+  // }
 
-  const isLoginOrSignupPage = ["/","/login", "/signup", "/resetPassword"].includes(location.pathname);
+  // const isLoginOrSignupPage = ["/","/login", "/signup", "/resetPassword"].includes(location.pathname);
 
-  if (!authToken && location.pathname === "/") {
-    return <Navigate to="/login" replace />;
-  }
+  // if (!authToken && location.pathname === "/") {
+  //   return <Navigate to="/login" replace />;
+  // }
 
-  if (!authToken && !isLoginOrSignupPage) {
-    return <Navigate to="/login" replace />;
-  }
+  // if (!authToken && !isLoginOrSignupPage) {
+  //   return <Navigate to="/login" replace />;
+  // }
 
-  if (authToken && isLoginOrSignupPage) {
-    return <Navigate to="/home" replace />;
-  }
+  // if (authToken && isLoginOrSignupPage) {
+  //   return <Navigate to="/home" replace />;
+  // }
 
   return (
     <Routes>

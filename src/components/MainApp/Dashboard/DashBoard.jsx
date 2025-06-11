@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Outlet,useNavigate, useLocation } from "react-router-dom";
 import { useAuth } from "../../../context/AuthContext.jsx";
 import getUserById from "../../../api/getUserData.js";
-import * as jwt_decode from "jwt-decode";
+import  jwtDecode  from "jwt-decode";
 import waitLoading from "/src/assets/json/waitLoading.json"; 
 import Lottie from "lottie-react";
 import HomeRightWidget from './HomeRightWidget';
@@ -52,7 +52,7 @@ function AgriLinkedDashboard() {
     }
 
     try {
-      const decodedToken = jwt_decode(token);
+      const decodedToken = jwtDecode(token);
       const userId = decodedToken.userId;
 
       const fetchUser = async () => {
@@ -150,11 +150,11 @@ const getMobileActiveClass = (path) =>
 
   return (
     <>
-         <header className={`md:hidden fixed top-0 w-full z-50 transition-all duration-300 ease-in-out shadow-sm backdrop-blur-sm ${
+         <header className={`md:hidden fixed top-0 w-full z-50 transition-all duration-300 ease-in-out  backdrop-blur-sm ${
          isHidden ? "-translate-y-full lg:translate-y-0" : "translate-y-0"
          } ${
            darkMode 
-             ? 'bg-neutral-900 border-gray-700  shadow-[0_0_10px_rgba(255,255,255,0.5)]  text-gray-100' 
+             ? 'bg-neutral-900 border-gray-700  shadow-[0_0_10px_rgba(255,255,255,0.2)]  text-gray-100' 
              : 'bg-white text-gray-800'
          }`}>
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
@@ -452,8 +452,8 @@ const getMobileActiveClass = (path) =>
       </div>
 
       <nav className={`md:hidden  fixed -bottom-[1px] left-0 right-0
-      ${darkMode ? 'bg-neutral-900 border-gray-700 shadow-[0_0_10px_rgba(255,255,255,0.7)]' : 'bg-white border-gray-100'} 
-      shadow-lg border-t z-40 transition-all duration-300 ease-in-out ${
+      ${darkMode ? 'bg-neutral-900 border-gray-700 shadow-[0_0_10px_rgba(255,255,255,0.2)]' : 'bg-white border-gray-100'} 
+       border-t z-40 transition-all duration-300 ease-in-out ${
       showSearchModal ? "hidden" : ""
       }`}>
      <div className="flex justify-around py-3">
@@ -738,7 +738,7 @@ const getMobileActiveClass = (path) =>
    </aside>
 
      {showSearchSidebar && (
-  <aside className={`animate-slideLeft fixed left-64 top-0 h-full w-80 border-r z-20 shadow-lg ${
+  <aside className={`slideLeft fixed left-64 top-0 h-full w-80 border-r z-20 shadow-lg ${
     darkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
   }`}>
     <div className={`p-4 border-b py-8 mb-10 ${
