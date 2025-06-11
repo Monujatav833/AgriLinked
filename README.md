@@ -19,7 +19,7 @@ It brings together farmers, brokers, traders, mandi agents, land dealers, wholes
 |--------------|--------------------------------|
 | Frontend     | React.js, Tailwind CSS         |
 | Backend      | Node.js, Express.js            |
-| Database     | MongoDB + MySQL (Hybrid)       |
+| Database     | MongoDB + PostgreSQL(Hybrid)       |
 | Real-time    | Socket.io                      |
 | Auth         | JWT, bcrypt                    |
 | Deployment   | AWS EC2, Vercel, Render        |
