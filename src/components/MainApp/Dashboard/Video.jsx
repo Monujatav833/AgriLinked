@@ -128,7 +128,7 @@ const Reels = () => {
 
   return (
     <div className="relative w-[360px] h-screen bg-black overflow-hidden flex justify-center mx-auto">
-      <div className="overflow-y-scroll snap-y snap-mandatory h-full w-[390px] bg-black relative no-scrollbar">
+      <div className="overflow-y-scroll snap-y snap-mandatory h-full w-[390px] bg-black relative">
         {videos.map((video, index) => (
           <div key={video.id} className="h-screen flex justify-center items-center relative snap-start w-full">
             <video
