@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "rojat dalat",
+    "profileImage": "/src/assets/images/tomato.png",
+    "coverImage": "/src/assets/images/fg2.jpg",
+    "location": "nepal",
+    "connections": "250+",
+    "about": "A trusted broker with 5 star rating and have done deals with over 150+ wholesalers and farmers.",
+    "rating": 2
+  },
+  {
+    "id": 2,
+    "name": "Amit Kumar",
+    "profileImage": "/src/assets/images/fg2.jpg",
+    "coverImage": "/src/assets/images/fg2.jpg",
+    "location": "Delhi",
+    "connections": "150+",
+    "about": "An experienced broker working in various sectors.",
+    "rating": 4
+  }
+]

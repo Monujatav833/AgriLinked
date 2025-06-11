@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-scrollbar {
+    @apply overflow-y-scroll scrollbar-hide;
+}
+body {
+    @apply bg-white;
+}

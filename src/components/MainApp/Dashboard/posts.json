@@ -1,0 +1,86 @@
+[    
+  {
+      "id": 1,
+      "type": "pics",
+      "url": "/src/assets/images/onion.png",
+      "likes": 1050,
+      "dislikes": 50,
+      "roletype": "broker",
+      "hashtags": "#tomato",
+      "channel": "rajat dalal",
+      "description": "a trusted broker with 5 star rating if any vyapari interested can contact me",
+      "profileImg": "./src/assets/images/tomato.png",
+      "postedAt": "2 hours ago",
+      "rating":1
+    },
+    {
+      "id": 2,
+      "type": "video",
+      "url": "https://videocdn.cdnpk.net/videos/a1709e05-5d77-485a-96b7-914e31bceed9/horizontal/previews/videvo_watermarked/small.mp4",
+      "likes": 2120,
+      "dislikes": 70,
+      "roletype": "farmer",
+      "hashtags": "#selling",
+      "channel": "pappu farmer",
+      "description": "want to sell 100 crate tomato interested broker/vyapari can reach out",
+      "profileImg": "./src/assets/images/broker.png",
+      "postedAt": "5 hours ago",
+      "rating":0
+    },
+    {
+      "id": 3,
+      "type": "photo",
+      "url": "",
+      "likes": 3080,
+      "dislikes": 90,
+      "roletype": "wholesaler",
+      "hashtags": "#buy",
+      "channel": "raju vyapari",
+      "description": "want to buy 1000 crate tomato ",
+      "profileImg": "./src/assets/images/wholesaler.png",
+      "postedAt": "1 day ago",
+      "rating":4
+    },
+    {
+      "id": 4,
+      "type": "photo",
+      "url": "/src/assets/images/broker.png",
+      "likes": 1500,
+      "dislikes": 30,
+      "roletype": "broker",
+      "hashtags": " #sell",
+      "channel": "deepak seth",
+      "description": "Excited to announce that we've successfully partnered with over 100 wholesalers!",
+      "profileImg": "./src/assets/images/explorer.png",
+      "postedAt": "3 days ago",
+      "rating":1
+    }
+    ,
+    {
+      "id": 5,
+      "type": "photo",
+      "url": "/src/assets/images/farmer.png",
+      "likes": 1800,
+      "dislikes": 30,
+      "roletype": "farmer",
+      "hashtags": "",
+      "channel": "dhanna moulavi",
+      "description": "Excited to share that i've purchased a trucktor",
+      "profileImg": "./src/assets/images/trucktor.png",
+      "postedAt": "9 days ago"
+    },
+     {
+      "id": 6,
+      "type": "photo",
+      "url": "/src/assets/images/fg2.jpg",
+      "likes": 1800,
+      "dislikes": 30,
+      "roletype": "farmer",
+      "hashtags": "",
+      "channel": "dhanna moulavi",
+      "description": "Excited to share that i've purchased a trucktor",
+      "profileImg": "./src/assets/images/trucktor.png",
+      "postedAt": "9 days ago"
+    }
+  ]
+  

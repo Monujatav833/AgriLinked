@@ -1,0 +1,47 @@
+[
+    { 
+      "id": 1, 
+      "url": "https://videocdn.cdnpk.net/joy/content/video/free/2014-12/small_preview/Raindrops_Videvo.mp4?token=exp=1738161679~acl=/*~hmac=f37287610ee545b111ebe8e95a6cfa273d1aa04f28dd3c2169549f5744ff6dd4",
+      "likes": 1050, 
+      "dislikes": 50, 
+      "views": "2.3M", 
+      "hashtags": "#fitness #gym",
+      "channel": "FitLife",
+      "description": "Transform your body with our top exercises! 💪🔥",
+      "profileImg": "./src/assets/images/tomato.png" 
+    },
+    { 
+      "id": 2, 
+      "url": "https://videocdn.cdnpk.net/videos/c895ee54-18ea-4967-991c-e9fb209bc5d2/horizontal/previews/videvo_watermarked/small.mp4", 
+      "likes": 2120, 
+      "dislikes": 70, 
+      "views": "1.5M", 
+      "hashtags": "#motivation #workout",
+      "channel": "StrengthBoost",
+      "description": "Push your limits every day! 🚀",
+      "profileImg": "./src/assets/images/broker.png" 
+    },
+    { 
+      "id": 3, 
+      "url": "https://videocdn.cdnpk.net/videos/dfedd6d9-20e8-40b5-8e93-9303f9f31930/horizontal/previews/videvo_watermarked/small.mp4", 
+      "likes": 3080, 
+      "dislikes": 90, 
+      "views": "3.8M", 
+      "hashtags": "#healthy #lifestyle",
+      "channel": "WellnessHub",
+      "description": "Healthy mind, healthy body.",
+      "profileImg": "./src/assets/images/wholesaler.png" 
+    },
+    { 
+      "id": 4, 
+      "url": "/src/video/video.mp4", 
+      "likes": 3080, 
+      "dislikes": 90, 
+      "views": "3.8M", 
+      "hashtags": "#movie #film",
+      "channel": "filmyZilla",
+      "description": "Entertainment. 🌿💖",
+      "profileImg": "" 
+   }
+  ]
+  
