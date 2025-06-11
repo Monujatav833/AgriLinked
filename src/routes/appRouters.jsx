@@ -8,7 +8,7 @@ import Video from '../components/MainApp/Dashboard/Video.jsx';
 import {Home} from '../components/MainApp/Dashboard/Home.jsx';
 // import {UserProfile} from '../components/MainApp/Dashboard/NewProfile.jsx';
 import NotFound from '../components/pages/NotFound.jsx';
-import AgriLinkLayout from '../components/MainApp/Dashboard/Dashboard.jsx';
+import AgriLinkLayout from '../components/MainApp/Dashboard/DashBoard.jsx';
 import CreatePost from '../components/MainApp/Dashboard/CreatePost.jsx';
 import Messenger from '../components/Messenger/Messenger.jsx';
 import Calling from '../components/Messenger/Calling.jsx';
